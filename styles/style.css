@@ -22,12 +22,14 @@ article {
   align-items: center;
   justify-content: flex-end;
   width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
+  max-width: 40em;
+  min-width: 25em;
+  max-height: 20em;
+  min-height: 25em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
-  box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
+  background: rgb(0, 239, 255);
+  background: linear-gradient(0deg, rgba(0, 239, 255, 1) 40%, #4e54c8 100%);
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, .1);
   transition: .25s;
 }
 
@@ -41,7 +43,7 @@ header {
 
 h1 {
   margin: 2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgba(0, 239, 255, 1);
 }
 
 button {
@@ -53,16 +55,18 @@ button {
   padding: .25rem;
   border: none;
   border-radius: 50%;
-  background: rgba(0,239,255,1);
+  background: rgba(0, 239, 255, 1);
   transform: scale(.8);
   transition: .25s;
 }
+
 button:focus {
   outline: none;
   background: #202592;
 }
+
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgba(0, 239, 255, 1);
 }
 
 svg {
@@ -72,6 +76,7 @@ svg {
   stroke: #4e54c8;
   transition-delay: .25s;
 }
+
 button svg:nth-of-type(2) {
   opacity: 0;
   transition-delay: 0ms;
@@ -84,7 +89,7 @@ img {
   height: auto;
   border: 5px solid #fff;
   border-radius: 10em;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
   transition: .25s .15s;
 }
 
@@ -94,7 +99,7 @@ dl {
   grid-template-areas:
     "html-dd css-dd js-dd"
     "html-dt css-dt js-dt"
-    ;
+  ;
   justify-items: center;
   align-items: start;
   width: 100%;
@@ -102,22 +107,25 @@ dl {
   margin-bottom: 0;
   padding: 5rem 0 3rem;
   text-align: center;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
 }
 
 dt {
   margin-top: .25rem;
   padding-top: .25rem;
-  border-top: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
+
 dt:nth-of-type(1) {
   grid-area: html-dt;
 }
+
 dt:nth-of-type(2) {
   grid-area: css-dt;
   transform: translateY(1rem);
 }
+
 dt:nth-of-type(3) {
   grid-area: js-dt;
 }
@@ -127,21 +135,22 @@ dd {
   padding-left: .3rem;
   transition: .25s .3s;
 }
-dd:nth-of-type(2){  
+
+dd:nth-of-type(2) {
   transform: translateY(1rem);
 }
 
-p { 
+p {
   margin: 0;
 }
 
-article > p {
+article>p {
   width: 100%;
   margin-top: 0;
   padding: 3rem 2rem;
   border-radius: 0 0 1rem 1rem;
   text-align: center;
-  background: rgba(255,255,255, 0.5);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* expand content */
