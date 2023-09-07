@@ -6,26 +6,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FDND Visitekaartje</title>
   <link rel="stylesheet" href="styles/style.css">
+  <script src="https://kit.fontawesome.com/d02edf9a4b.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script src="scripts/script.js"></script>
 </head>
 
 <body>
   <div class="maincontainer">
-    <div id="thecard" onclick="myFlipFunction()">
+    <div id="thecard">
       <div class="thefront">
         <h1>Jesse Kramer</h1>
-        <p>Software Developer<br>VMBO</p>
+        <div class="line"></div>
+        <div class="container">
+          <div class="content1">
+            <h2>Wie ben ik:</h2>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>List icons can</li>
+              <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>be used to</li>
+              <li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>replace bullets</li>
+              <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>in lists</li>
+            </ul>
+          </div>
+          <div class="content2">
+            <h2>Mijn kennis:</h2>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>List icons can</li>
+              <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>be used to</li>
+              <li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>replace bullets</li>
+              <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>in lists</li>
+            </ul>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer">
+          <div class="footer1">
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span>06-13121355</li>
+            </ul>
+          </div>
+          <div class="footer2">
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span>jesse.kramer@hva.nl</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div class="theback">
         <h1>Contact me</h1>
-        <p>Tel: 06-12345678<br>Email: Jesse.kramer@hva.nl</p>
+        <p>For more information, please contact me!</p>
+        <div class="footer">
+          <div class="footer1">
+            <img src="assets/profile.png" alt="">
+          </div>
+          <div class="footer2">
+            <h2>Social media:</h2>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-brands fa-linkedin"></i></span> <a href="">Click here!</a></li>
+              <li><span class="fa-li"><i class="fa-brands fa-instagram"></i></span> <a href="">Click here!</a></li>
+            </ul>
+            <h2>Contact information:</h2>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span><a href="tel:0613121355">06-13121355</a>
+              </li>
+              <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span><a
+                  href="mailto:jesse.kramer@hva.nl">jesse.kramer@hva.nl</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
     </div>
-  </div>
+  </div><span class="button" onclick="myFlipFunction()"><i class="fa-solid fa-arrows-rotate"></i></span>
 
 
-  <script src="scripts/script.js"></script>
 </body>
 
 </html>
