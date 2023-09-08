@@ -1,4 +1,8 @@
-> Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Visitekaartje
+
+🖥️ Live URL - https://ovenmagnetron.github.io/your-tribe-profile-card/
+🌐 Wiki - https://github.com/OvenMagnetron/your-tribe-profile-card/wiki
+
 
 ## Licentie
 
