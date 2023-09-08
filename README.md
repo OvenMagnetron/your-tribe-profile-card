@@ -1,6 +1,6 @@
 # Visitekaartje
 
-🖥️ Live URL - https://ovenmagnetron.github.io/your-tribe-profile-card/
+🖥️ Live URL - https://ovenmagnetron.github.io/your-tribe-profile-card/  
 🌐 Wiki - https://github.com/OvenMagnetron/your-tribe-profile-card/wiki
 
 
