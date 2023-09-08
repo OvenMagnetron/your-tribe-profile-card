@@ -9,13 +9,6 @@ a {
   /* no underline */
 }
 
-.floating {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
 /* Hoofd containter */
 .maincontainer {
   width: 42.5em;
@@ -182,18 +175,4 @@ img {
   border: none;
   color: #FFE373;
   background-color: #FFE373;
-}
-
-@keyframes floating {
-  from {
-    transform: translate(0, 0px);
-  }
-
-  50% {
-    transform: translate(0, 15px);
-  }
-
-  to {
-    transform: translate(0, -0px);
-  }
 }
