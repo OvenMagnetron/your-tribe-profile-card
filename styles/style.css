@@ -10,7 +10,7 @@ a {
 }
 
 /* Hoofd containter */
-.maincontainer {
+maincontainer {
   width: 42.5em;
   max-width: 45em;
   min-width: 25em;
@@ -51,7 +51,7 @@ a {
 }
 
 /* Voorkant */
-.thefront {
+thefront {
   position: absolute;
   top: 0;
   left: 0;
@@ -65,7 +65,7 @@ a {
 }
 
 /* Achterkant */
-.theback {
+theback {
   position: absolute;
   top: 0;
   left: 0;
@@ -80,8 +80,8 @@ a {
 }
 
 
-.thefront h1,
-.theback h1 {
+thefront h1,
+theback h1 {
   font-family: 'Montserrat';
   padding: 10px;
   font-weight: bold;
@@ -89,16 +89,16 @@ a {
   text-align: center;
 }
 
-.thefront h2,
-.theback h2 {
+thefront h2,
+theback h2 {
   margin-left: 4%;
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 20px;
 }
 
-.thefront p,
-.theback p {
+thefront p,
+theback p {
   font-family: 'Montserrat';
   padding: 10px;
   font-weight: normal;
@@ -106,8 +106,8 @@ a {
   text-align: center;
 }
 
-.thefront ul li,
-.theback ul li {
+thefront ul li,
+theback ul li {
   font-family: 'Montserrat';
   font-weight: normal;
   font-size: 18px;
@@ -140,7 +140,7 @@ a {
   padding: 20px
 }
 
-.footer {
+footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
