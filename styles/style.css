@@ -234,7 +234,23 @@ img {
     display: none;
   }
 
+  h1 {
+    font-size: 200%
+  }
+
   .mobile {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .mobile-img {
+    color: white;
+  }
+
+  img {
+    height: 75%;
+    float: unset;
   }
 }
