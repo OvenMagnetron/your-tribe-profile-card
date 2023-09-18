@@ -81,7 +81,8 @@ back {
 
 
 front h1,
-back h1 {
+back h1,
+h1 {
   font-family: 'Montserrat';
   padding: 10px;
   font-weight: bold;
@@ -175,4 +176,65 @@ img {
   border: none;
   color: #FFE373;
   background-color: #FFE373;
+}
+
+.mobile {
+  display: none
+}
+
+@media (max-width: 1600px) {
+  .button {
+    left: 75%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .button {
+    left: 80%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .button {
+    left: 85%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .button {
+    left: 90%;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .button {
+    left: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    width: 42em;
+    min-height: 24em;
+
+  }
+
+  .button {
+    left: 95%;
+  }
+}
+
+@media (max-width: 750px) {
+  main {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
 }
