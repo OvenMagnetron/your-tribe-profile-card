@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="nl">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FDND Visitekaartje</title>
+  <title>Visitekaartje - Jesse Kramer</title>
   <link rel="stylesheet" href="styles/style.css">
   <script src="https://kit.fontawesome.com/d02edf9a4b.js" crossorigin="anonymous"></script>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -12,25 +11,27 @@
 </head>
 
 <body>
-  <maincontainer>
-    <div id="thecard">
-      <thefront>
+  <main>
+    <section id="thecard">
+      <front>
         <h1>Jesse Kramer</h1>
         <div class="line"></div>
         <section class="container">
-          <article class="content1">
+          <article class="con-left">
             <h2>About me:</h2>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fa-solid fa-person"></i></span>Jesse Kramer</li>
               <li><span class="fa-li"><i class="fa-solid fa-cake-candles"></i></span>18 years old</li>
               <li><span class="fa-li"><i class="fa-solid fa-dumbbell"></i></span>Gym</li>
-              <li><span class="fa-li"><i class="fa-solid fa-briefcase"></i></span>Crew leader in Vomar</li>
+              <li><span class="fa-li"><i class="fa-solid fa-briefcase"></i></span>Crew leader in Vomar
+              </li>
             </ul>
           </article>
-          <article class="content2">
+          <article class="con-right">
             <h2>My knownledge:</h2>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fa-solid fa-bars-progress"></i></span>Frontender (Learning)</li>
+              <li><span class="fa-li"><i class="fa-solid fa-bars-progress"></i></span>Frontender
+                (Learning)</li>
               <li><span class="fa-li"><i class="fa-solid fa-code"></i></span>Software Developer</li>
               <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span>VMBO-T</li>
               <li><span class="fa-li"><i class="fa-solid fa-flag"></i></span>Cambridge English</li>
@@ -39,35 +40,37 @@
         </section>
         <div class="line"></div>
         <footer>
-          <article class="footer1">
+          <article class="foot-left">
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span><a href="tel:0613121355"
                   target="_blank">06-13121355</a>
               </li>
             </ul>
           </article>
-          <article class="footer2">
+          <article class="foot-right">
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span><a href="mailto:jesse.kramer@hva.nl"
                   target="_blank">jesse.kramer@hva.nl</a></li>
             </ul>
           </article>
         </footer>
-      </thefront>
-
-      <theback>
-        <h1>Contact me</h1>
-        <div class="line" style="background-color: #252525 !important;"></div>
-        <p>For more information, please contact me!</p>
+      </front>
+      <back>
+        <section>
+          <h1>Contact me</h1>
+          <div class="line" style="background-color: #252525 !important;"></div>
+          <p>For more information, please contact me!</p>
+        </section>
         <footer>
-          <article class="footer1">
+          <article class="foot-left">
             <img src="assets/profile.png" alt="">
           </article>
-          <article class="footer2">
+          <article class="foot-right">
             <h2>Social media:</h2>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fa-brands fa-linkedin"></i></span> <a
-                  href="https://www.linkedin.com/in/jesse-kramer-10058822a/" target="_blank">Click here!</a></li>
+                  href="https://www.linkedin.com/in/jesse-kramer-10058822a/" target="_blank">Click
+                  here!</a></li>
               <li><span class="fa-li"><i class="fa-brands fa-instagram"></i></span> <a
                   href="https://www.instagram.com/jessekr/" target="_blank">Click here!</a></li>
             </ul>
@@ -81,12 +84,10 @@
             </ul>
           </article>
         </footer>
-      </theback>
-
-    </div>
-  </maincontainer><span class="button" onclick="myFlipFunction()"><i class="fa-solid fa-arrows-rotate"></i></span>
-
-
+      </back>
+    </section>
+  </main>
+  <span class="button" onclick="myFlipFunction()"><i class="fa-solid fa-arrows-rotate"></i></span>
 </body>
 
 </html>

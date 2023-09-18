@@ -10,7 +10,7 @@ a {
 }
 
 /* Hoofd containter */
-maincontainer {
+main {
   width: 42.5em;
   max-width: 45em;
   min-width: 25em;
@@ -51,7 +51,7 @@ maincontainer {
 }
 
 /* Voorkant */
-thefront {
+front {
   position: absolute;
   top: 0;
   left: 0;
@@ -65,7 +65,7 @@ thefront {
 }
 
 /* Achterkant */
-theback {
+back {
   position: absolute;
   top: 0;
   left: 0;
@@ -80,8 +80,8 @@ theback {
 }
 
 
-thefront h1,
-theback h1 {
+front h1,
+back h1 {
   font-family: 'Montserrat';
   padding: 10px;
   font-weight: bold;
@@ -89,16 +89,16 @@ theback h1 {
   text-align: center;
 }
 
-thefront h2,
-theback h2 {
+front h2,
+back h2 {
   margin-left: 4%;
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 20px;
 }
 
-thefront p,
-theback p {
+front p,
+back p {
   font-family: 'Montserrat';
   padding: 10px;
   font-weight: normal;
@@ -106,8 +106,8 @@ theback p {
   text-align: center;
 }
 
-thefront ul li,
-theback ul li {
+front ul li,
+back ul li {
   font-family: 'Montserrat';
   font-weight: normal;
   font-size: 18px;
@@ -124,7 +124,7 @@ theback ul li {
   max-height: 65%;
 }
 
-.content1 {
+.con-left {
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -132,7 +132,7 @@ theback ul li {
   padding: 20px
 }
 
-.content2 {
+.con-right {
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -148,7 +148,7 @@ footer {
   grid-row-gap: 0px;
 }
 
-.footer1 {
+.foot-left {
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -156,7 +156,7 @@ footer {
   padding-left: 20px;
 }
 
-.footer2 {
+.foot-right {
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
